@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PaulaMontiel/galeria-imagenes-react/precache-manifest.5970cee31661d9b640cd250d7942466a.js"
+  "/galeria-imagenes-react/precache-manifest.b06bf8ceda475645883bb506f627f3c1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/PaulaMontiel/galeria-imagenes-react/index.html", {
+workbox.routing.registerNavigationRoute("/galeria-imagenes-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
