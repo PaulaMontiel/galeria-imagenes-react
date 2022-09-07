@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word ;
+}
+.mycard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+
+}
+img{
+  max-width: auto;
+  height: 15em;
+  object-fit: fill;
+ 
+}
+.colu{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.description{
+  max-height: 12em;
+  object-fit: fill;
+  overflow: scroll;
+}
+h1{
+  text-align: center;
+}
+.roww{
+  justify-content: center;
+}
+h5,h6{
+  text-align: center;
+}
+button{
+  margin: 5px;
+  background-color: aqua;
+}
